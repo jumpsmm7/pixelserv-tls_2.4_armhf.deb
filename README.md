@@ -71,7 +71,7 @@ Optional Uninstall
 ````
 sudo -i
 systemctl disable pixelserv-tls
-service stop pixelserv-tls
+service pixelserv-tls stop
 dpkg --purge pixelserv-tls
 rm -rf /var/cache/pixelserv
 ````
